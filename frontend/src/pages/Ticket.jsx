@@ -127,7 +127,7 @@ function Ticket() {
             </div>
           </form>
         </Modal>
-
+  
         <Notes />
         {
           ticket.status !== 'closed' && (
@@ -136,6 +136,7 @@ function Ticket() {
             </button>
           )
         }
+        <hr />
       </div>
     </>
   )
